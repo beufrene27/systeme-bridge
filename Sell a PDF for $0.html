@@ -1,0 +1,180 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Sell a PDF for $0</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="A beginner's guide to selling and auto-delivering a PDF on Systeme.io's free plan, with $0 a month in software costs.">
+<meta name="theme-color" content="#020617">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23020617'/%3E%3Ctext x='16' y='23' font-family='Arial' font-size='20' font-weight='700' text-anchor='middle' fill='%23fbbf24'%3E$0%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif']
+        }
+      }
+    }
+  };
+</script>
+<style>
+  /* Layout: left-aligned hero with a cost comparison beside it, three free-plan cards, a plain payment-fee note, four real steps, a closing CTA, and a full disclosure footer. */
+  :root {
+    --bg: #020617;
+    --fg: #e2e8f0;
+    --muted: #94a3b8;
+    --line: #1e293b;
+    --accent: #fbbf24;
+    --accent-ink: #020617;
+    color-scheme: dark;
+  }
+  html, body { background: var(--bg); color: var(--fg); }
+  body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  .gutter {
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .cta:focus-visible { outline: 2px solid #ffffff; outline-offset: 3px; }
+  .cta { transition: background-color .15s ease, transform .15s ease; }
+  .cta:hover { transform: translateY(-1px); }
+  @media (prefers-reduced-motion: reduce) {
+    .cta { transition: none; }
+    .cta:hover { transform: none; }
+  }
+</style>
+<div class="gutter bg-slate-950 text-slate-200 font-sans">
+
+  <!-- Hero -->
+  <header class="mx-auto w-full max-w-5xl pt-12 pb-14 sm:pt-16 sm:pb-20">
+    <div class="grid gap-10 lg:grid-cols-[1.25fr_0.75fr] lg:gap-14 items-start">
+      <div class="min-w-0">
+        <p class="text-xs font-semibold uppercase tracking-widest text-amber-400">A free-plan guide for first-time digital sellers</p>
+        <h1 class="mt-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.05] text-white text-balance">
+          Stop paying a $90&ndash;$100/month software tax to sell one PDF.
+        </h1>
+        <p class="mt-6 max-w-xl text-lg leading-relaxed text-slate-300">
+          ClickFunnels and Kajabi start around $90 to $100 a month. Systeme.io has a free plan that covers your sales page, your email list and your checkout, so your monthly software bill can stay at $0.
+        </p>
+        <div class="mt-9">
+          <a class="cta inline-flex w-full sm:w-auto items-center justify-center rounded-sm bg-amber-400 px-7 py-4 text-base sm:text-lg font-bold text-slate-950 hover:bg-amber-300"
+             href="https://systeme.io/?sa=sa0226801627b14fd7c6ea25c6c42604202a378df4"
+             target="_blank" rel="sponsored noopener noreferrer">
+            Get Your Free Systeme.io Account &rarr;
+          </a>
+          <p class="mt-3 text-sm text-slate-400">Instant access &bull; No credit card required &bull; Free forever plan</p>
+        </div>
+      </div>
+
+      <aside class="min-w-0 border border-slate-800 bg-slate-900/40 p-6 rounded-sm" aria-label="Monthly software cost comparison">
+        <h2 class="text-xs font-semibold uppercase tracking-widest text-slate-400">Monthly software cost to sell one PDF</h2>
+        <dl class="mt-5 divide-y divide-slate-800">
+          <div class="flex items-baseline justify-between gap-4 py-3">
+            <dt class="text-slate-300">ClickFunnels</dt>
+            <dd class="font-semibold text-slate-200 [font-variant-numeric:tabular-nums]">from $97/mo</dd>
+          </div>
+          <div class="flex items-baseline justify-between gap-4 py-3">
+            <dt class="text-slate-300">Kajabi</dt>
+            <dd class="font-semibold text-slate-200 [font-variant-numeric:tabular-nums]">from $89/mo</dd>
+          </div>
+          <div class="flex items-baseline justify-between gap-4 py-3">
+            <dt class="font-semibold text-white">Systeme.io Free plan</dt>
+            <dd class="text-3xl font-extrabold text-amber-400 [font-variant-numeric:tabular-nums]">$0/mo</dd>
+          </div>
+        </dl>
+        <p class="mt-4 text-xs leading-relaxed text-slate-400">Entry-plan prices on monthly billing, checked November 7, 2026. Plans and prices change, so confirm on each company's site.</p>
+      </aside>
+    </div>
+  </header>
+
+  <main class="mx-auto w-full max-w-5xl">
+
+    <!-- Value cards -->
+    <section class="border-t border-slate-800 py-14 sm:py-16" aria-labelledby="free-plan-heading">
+      <h2 id="free-plan-heading" class="text-2xl sm:text-3xl font-bold tracking-tight text-white text-balance">What the free plan covers</h2>
+      <p class="mt-3 max-w-2xl text-slate-400">Details come from Systeme.io's pricing page, checked November 7, 2026.</p>
+
+      <div class="mt-8 grid gap-4 md:grid-cols-3">
+        <article class="min-w-0 border border-slate-800 bg-slate-900/40 p-6 rounded-sm">
+          <svg class="h-7 w-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14"/><path d="m3 7 9 6 9-6"/></svg>
+          <h3 class="mt-5 text-lg font-semibold text-white">2,000 contacts, unlimited sends</h3>
+          <p class="mt-2 leading-relaxed text-slate-300">Build an email list of up to 2,000 contacts and send them as many emails as you like.</p>
+        </article>
+        <article class="min-w-0 border border-slate-800 bg-slate-900/40 p-6 rounded-sm">
+          <svg class="h-7 w-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 15l6-6"/><circle cx="9.5" cy="9.5" r="1"/><circle cx="14.5" cy="14.5" r="1"/></svg>
+          <h3 class="mt-5 text-lg font-semibold text-white">0% platform transaction fees</h3>
+          <p class="mt-2 leading-relaxed text-slate-300">Systeme.io takes no cut of your sales. You keep the sale price minus payment processing fees.</p>
+        </article>
+        <article class="min-w-0 border border-slate-800 bg-slate-900/40 p-6 rounded-sm">
+          <svg class="h-7 w-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7 11 5 5 5-5"/><path d="M5 20h14"/></svg>
+          <h3 class="mt-5 text-lg font-semibold text-white">Built-in instant file delivery</h3>
+          <p class="mt-2 leading-relaxed text-slate-300">Attach your PDF to a digital product and buyers get the download after checkout.</p>
+        </article>
+      </div>
+
+      <!-- Payment fee transparency -->
+      <div class="mt-4 border border-slate-700 p-6 rounded-sm">
+        <p class="text-xs font-semibold uppercase tracking-widest text-amber-400">Payment fees, stated plainly</p>
+        <p class="mt-3 max-w-3xl leading-relaxed text-slate-200">
+          Stripe and PayPal still charge their standard payment processing fees on every sale. Those fees go to the payment company, not to Systeme.io, and they apply on any platform you use.
+        </p>
+      </div>
+
+      <p class="mt-6 text-sm leading-relaxed text-slate-400">
+        Free plan limits: 2,000 contacts, 3 funnels, 1 automation rule, 1 course, 1 custom domain. Source: Systeme.io pricing page, checked November 7, 2026.
+      </p>
+    </section>
+
+    <!-- Steps -->
+    <section class="border-t border-slate-800 py-14 sm:py-16" aria-labelledby="steps-heading">
+      <h2 id="steps-heading" class="text-2xl sm:text-3xl font-bold tracking-tight text-white text-balance">Your first sale in four steps</h2>
+      <ol class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <li class="min-w-0 border border-slate-800 p-5 rounded-sm">
+          <p class="text-xs font-semibold uppercase tracking-widest text-amber-400">Step 1</p>
+          <h3 class="mt-3 font-semibold text-white">Make the PDF</h3>
+          <p class="mt-2 text-sm leading-relaxed text-slate-300">Draft it with an AI assistant, lay it out in Canva, and export it as a PDF.</p>
+        </li>
+        <li class="min-w-0 border border-slate-800 p-5 rounded-sm">
+          <p class="text-xs font-semibold uppercase tracking-widest text-amber-400">Step 2</p>
+          <h3 class="mt-3 font-semibold text-white">Upload it</h3>
+          <p class="mt-2 text-sm leading-relaxed text-slate-300">Create a digital product in Systeme.io, attach the file and set a price.</p>
+        </li>
+        <li class="min-w-0 border border-slate-800 p-5 rounded-sm">
+          <p class="text-xs font-semibold uppercase tracking-widest text-amber-400">Step 3</p>
+          <h3 class="mt-3 font-semibold text-white">Build the page</h3>
+          <p class="mt-2 text-sm leading-relaxed text-slate-300">Pick a sales-page template, edit the text and link the button to checkout.</p>
+        </li>
+        <li class="min-w-0 border border-slate-800 p-5 rounded-sm">
+          <p class="text-xs font-semibold uppercase tracking-widest text-amber-400">Step 4</p>
+          <h3 class="mt-3 font-semibold text-white">Automate delivery</h3>
+          <p class="mt-2 text-sm leading-relaxed text-slate-300">Set up the download and a welcome email so buyers get their file right away.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Closing CTA -->
+    <section class="border-t border-slate-800 py-14 sm:py-16" aria-labelledby="final-cta-heading">
+      <h2 id="final-cta-heading" class="max-w-2xl text-2xl sm:text-3xl font-bold tracking-tight text-white text-balance">Start with a free account.</h2>
+      <p class="mt-3 max-w-xl text-lg leading-relaxed text-slate-300">Set up your page, your product and your delivery on the free plan, and keep your software bill at $0 a month.</p>
+      <div class="mt-8">
+        <a class="cta inline-flex w-full sm:w-auto items-center justify-center rounded-sm bg-amber-400 px-7 py-4 text-base sm:text-lg font-bold text-slate-950 hover:bg-amber-300"
+           href="https://systeme.io/?sa=sa0226801627b14fd7c6ea25c6c42604202a378df4"
+           target="_blank" rel="sponsored noopener noreferrer">
+          Get Your Free Systeme.io Account &rarr;
+        </a>
+        <p class="mt-3 text-sm text-slate-400">Instant access &bull; No credit card required &bull; Free forever plan</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer / disclosure -->
+  <footer class="mx-auto w-full max-w-5xl border-t border-slate-800 py-10">
+    <div class="max-w-3xl space-y-3 text-xs sm:text-sm leading-relaxed text-slate-400">
+      <p><strong class="font-semibold text-slate-300">Affiliate disclosure:</strong> This page contains an affiliate link. If you create a Systeme.io account through it, I may earn a commission at no extra cost to you.</p>
+      <p>This is an independent guide. It is not owned, operated or endorsed by Systeme.io, ClickFunnels, Kajabi, Stripe or PayPal, and all names belong to their owners.</p>
+      <p>Prices and plan limits were checked on November 7, 2026 and can change. Confirm current details on each company's website before you sign up. Stripe and PayPal payment processing fees apply to sales. Results vary and nothing here is an earnings guarantee.</p>
+    </div>
+  </footer>
+
+</div>
+
+</body></html>
